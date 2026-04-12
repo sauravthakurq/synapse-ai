@@ -23,7 +23,7 @@ type ExtendedNavigator = Navigator & {
 };
 
 type OrientationController = ScreenOrientation & {
-  lock?: (orientation: OrientationLockType) => Promise<void>;
+  lock?: (orientation: OrientationType | string) => Promise<void>;
   unlock?: () => void;
 };
 

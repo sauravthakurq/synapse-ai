@@ -203,7 +203,7 @@ export function AddProviderDialog({ open, onOpenChange, onAdd }: AddProviderDial
           {requiresApiKey && (
             <div className="space-y-4 pt-2 -mt-2">
               <div className="space-y-2">
-                <Label>{t('settings.providerApiKey', 'API Key')}</Label>
+                <Label>{t('settings.providerApiKey') || 'API Key'}</Label>
                 <div className="flex gap-2 items-center">
                   <div className="relative flex-1">
                     <Input
@@ -213,7 +213,7 @@ export function AddProviderDialog({ open, onOpenChange, onAdd }: AddProviderDial
                       autoCapitalize="none"
                       autoCorrect="off"
                       spellCheck={false}
-                      placeholder={t('settings.providerApiKeyPlaceholder', 'sk-...')}
+                      placeholder={t('settings.providerApiKeyPlaceholder') || 'sk-...'}
                       value={apiKey}
                       onChange={(e) => setApiKey(e.target.value)}
                       className="h-9 pr-8"
@@ -252,7 +252,7 @@ export function AddProviderDialog({ open, onOpenChange, onAdd }: AddProviderDial
                           autoCapitalize="none"
                           autoCorrect="off"
                           spellCheck={false}
-                          placeholder={t('settings.providerApiKeyPlaceholder', 'sk-... (Fallback)')}
+                          placeholder={(t('settings.providerApiKeyPlaceholder') || 'sk-...') + ' (Fallback)'}
                           value={fbKey}
                           onChange={(e) => handleFallbackApiKeyChange(index, e.target.value)}
                           className="h-9 pr-8"

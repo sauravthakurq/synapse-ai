@@ -552,7 +552,7 @@ function ModelSelectorPopover({
                   onClick={(e) => {
                     e.preventDefault();
                     e.stopPropagation();
-                    setModel(drillProvider, model.id);
+                    if (drillProvider) setModel(drillProvider, model.id);
                     setPopoverOpen(false);
                   }}
                   className={cn(

@@ -606,10 +606,10 @@ export const useSettingsStore = create<SettingsState>()(
             let newModelId = state.modelId;
 
             // Check if current selection is usable
-            const currentProvider = newProvidersConfig[state.providerId];
+            const currentProvider = newProvidersConfig[state.providerId as keyof typeof newProvidersConfig];
             const isCurrentUsable = currentProvider && 
               (!currentProvider.requiresApiKey || currentProvider.apiKey || currentProvider.isServerConfigured) && 
-              currentProvider.models?.some(m => m.id === state.modelId);
+              currentProvider.models?.some((m: any) => m.id === state.modelId);
 
             if (!isCurrentUsable) {
               const p = updatedProvider;

@@ -1,19 +1,18 @@
-import type { LanguageModelV1 } from '@ai-sdk/provider';
+import type { LanguageModel } from 'ai';
 
-export function createFallbackModel(models: LanguageModelV1[]): LanguageModelV1 {
+export function createFallbackModel(models: LanguageModel[]): LanguageModel {
   if (models.length === 0) throw new Error("No models provided for fallback");
   if (models.length === 1) return models[0];
 
-  const primary = models[0];
-  return {
+  const primary = models[0] as any;
+  const result: any = {
     specificationVersion: primary.specificationVersion,
     provider: primary.provider,
     modelId: primary.modelId,
     defaultObjectGenerationMode: primary.defaultObjectGenerationMode,
-    supportsImageUrls: primary.supportsImageUrls,
-    doGenerate: async (options) => {
+    doGenerate: async (options: any) => {
       let lastError;
-      for (const model of models) {
+      for (const model of models as any[]) {
         try {
           return await model.doGenerate(options);
         } catch (e) {
@@ -23,9 +22,9 @@ export function createFallbackModel(models: LanguageModelV1[]): LanguageModelV1 
       }
       throw lastError;
     },
-    doStream: async (options) => {
+    doStream: async (options: any) => {
       let lastError;
-      for (const model of models) {
+      for (const model of models as any[]) {
         try {
           return await model.doStream(options);
         } catch (e) {
@@ -36,4 +35,6 @@ export function createFallbackModel(models: LanguageModelV1[]): LanguageModelV1 
       throw lastError;
     }
   };
+
+  return result as LanguageModel;
 }
