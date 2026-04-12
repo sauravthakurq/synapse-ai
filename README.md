@@ -1,139 +1,249 @@
 <div align="center">
-  <img src="public/images/philosophy.jpg" width="100%" style="border-radius: 12px;" />
-
-  <h1 align="center" style="font-size: 3rem; margin-top: 20px;">
-    Synapse AI 🧠
-  </h1>
-
-  <p align="center" style="font-size: 1.2rem; color: #555;">
-    <strong>The Ultimate Unified Intelligence Interface.</strong><br/>
-    Seamlessly chat, generate PPTs, read PDFs, synthesize voices, and create rich media all from one flawless view.
-  </p>
-
-  <p align="center">
-    <a href="#"><img src="https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Demo" /></a>
-    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
-    <img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react" alt="React" />
-    <img src="https://img.shields.io/badge/TypeScript-%2B-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
-    <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind" />
-  </p>
+  <br />
+  <h1 align="center">SYNAPSE AI</h1>
   
   <p align="center">
-    <a href="#-core-features"><b>Features</b></a> •
-    <a href="#-the-neural-network-supported-models"><b>AI Models</b></a> •
-    <a href="#-quick-start"><b>Installation</b></a> •
-    <a href="#-tech-stack"><b>Tech Stack</b></a>
+    <strong>Multi-Agent AI • Video Generation • Intelligent Workspace</strong>
   </p>
+
+  <p align="center">
+    Built like a <strong>$1B AI product</strong>, open-sourced for everyone.
+  </p>
+
+  <p align="center">
+    <a href="https://ai.nexbook.tech"><img src="https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
+    <a href="https://github.com/sauravthakurq/SYNAPSE-AI/stargazers"><img src="https://img.shields.io/github/stars/sauravthakurq/SYNAPSE-AI?style=for-the-badge" alt="Stars" /></a>
+    <a href="https://github.com/sauravthakurq/SYNAPSE-AI/network/members"><img src="https://img.shields.io/github/forks/sauravthakurq/SYNAPSE-AI?style=for-the-badge" alt="Forks" /></a>
+    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+  </p>
+
+  <br />
+  <img src="public/vids/1st%20home.png" width="100%" alt="Synapse AI Dashboard" />
+  <br />
 </div>
 
 <br/>
 
-> **🚀 Welcome to the Future of Work:** Synapse AI is not just another chatbot interface. It's a full-stack, enterprise-grade AI OS built on Next.js 15. We integrate the best large language models, vision APIs, PDF parsers, and TTS engines into an elegant, user-centric workspace.
+> **🚀 Open-Source Intelligence:** Synapse AI integrates the absolute best of LLM orchestration, vision parsing, web search, real-time audio, and multi-agent systems into a beautifully architected Next.js 15 environment.
 
 ---
 
-## ✨ Core Features
+## 💡 Why Synapse AI?
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <h3>💬 Omni-Channel Chat</h3>
-      <p>Talk natively to OpenAI, Claude, Gemini, DeepSeek, and Grok without jumping between tabs.</p>
-    </td>
-    <td align="center" width="50%">
-      <h3>🎨 Visual Canvas & PPTX</h3>
-      <p>Need a presentation? Synapse generates stunning slides and exports directly to `.pptx` or `.docx`.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <h3>📄 Deep-Dive Document Parsing</h3>
-      <p>Powered by MinerU & UnPDF. Upload 100-page reports and query every graph, table, and paragraph instantly.</p>
-    </td>
-    <td align="center" width="50%">
-      <h3>🎙️ Studio-Grade Audio</h3>
-      <p>High-fidelity text-to-speech utilizing Microsoft Azure AI Voices and ElevenLabs for realistic narration.</p>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <h3>🌐 Infinite Web Canvas</h3>
-      <p>Real-time internet search capabilities via Perplexity-like routing to keep the AI's knowledge completely fresh.</p>
-    </td>
-    <td align="center" width="50%">
-      <h3>🎬 Automated Media & Image Gen</h3>
-      <p>Generate production-ready art, diagrams, and iterative video drafts securely from the chat stream.</p>
-    </td>
-  </tr>
-</table>
+Most AI tools are fragmented. You use:
+
+- One app for chat  
+- One app for video generation  
+- One app for notes & whiteboarding  
+- One app for reading PDFs  
+
+**Synapse unifies everything into one intelligent, context-aware ecosystem.**
 
 ---
 
-## 🧠 The Neural Network: Supported Models
+## ⚡ Core Features
 
-Integrating practically **every cutting-edge model** currently on the market. Define your own API keys securely on the client or server. 
+- 🤖 **Multi-Agent Classroom**  
+  Simulates real-world discussion with multiple AI perspectives interacting with each other.
 
+- 🎬 **Autonomous Video Engine**  
+  From prompt → storyboard → dynamic rendered output right in the workflow.
+
+- 🧠 **Contextual Knowledge System**  
+  Rich text notes, infinite whiteboards, and AI chat unified in one memory layer.
+
+- 🔊 **Neural Voice Synthesis**  
+  Studio-quality TTS via Microsoft Azure & ElevenLabs with customizable phonetic control.
+
+- 📄 **Deep Document Intelligence**  
+  Query entire multi-hundred page PDFs with unPDF/MinerU structured semantic understanding.
+
+- 🌐 **Real-Time Web Search**  
+  Agentic routing to fetch live facts and source credible citations dynamically.
+
+- ⚙️ **Fail-Proof API Layer**  
+  Smart fallback routing across OpenAI, Anthropic, Google, and Open-Weights models.
+
+---
+
+## 🌟 Visual Showcase
+
+### 🕹️ Autonomous Video Dashboard
+An extremely powerful underlying engine automating the complex process of video compilation, timing, and multi-agent coordination.
 <div align="center">
-
-| Tier 1 Giants | The Open-Weights Vanguard | Voice & Specialized Tasks |
-| :---: | :---: | :---: |
-| <img src="public/logos/openai.svg" width="32"/><br/>**OpenAI** (GPT-4o) | <img src="public/logos/deepseek.svg" width="32"/><br/>**DeepSeek** (V3/R1) | <img src="public/logos/azure.svg" width="32"/><br/>**Azure TTS Voices** |
-| <img src="public/logos/claude.svg" width="32"/><br/>**Anthropic** (Opus/Sonnet) | <img src="public/logos/qwen.svg" width="32"/><br/>**Alibaba Qwen** | <img src="public/logos/elevenlabs.svg" width="32"/><br/>**ElevenLabs API** |
-| <img src="public/logos/gemini.svg" width="32"/><br/>**Google Gemini** (1.5 Pro) | <img src="public/logos/grok.svg" width="32"/><br/>**X.AI Grok** | <img src="public/logos/minimax.svg" width="32"/><br/>**MiniMax** |
-
-*Plus native support for: Bailian, Doubao, GLM, Kimi, Kling, SiliconFlow & many more...*
-
+  <img src="public/vids/se.gif" width="90%" alt="Autonomous Video Dashboard" />
 </div>
 
 ---
 
-## ⚡ Quick Start
+### 🎥 Seamless Interactive Playback
+Generate, view, and interact with dynamic media right within your workflow. Integrated player supports instant playback.
+<div align="center">
+  <img src="public/vids/vid%20genrated.png" width="90%" alt="Seamless Interactive Playback" />
+</div>
 
-Deploy this beast on your local machine in under **2 minutes**.
+---
 
-### 1. Clone the Repository
+### 📱 A True Mobile-First Experience
+Rigorously designed for flawless execution on any device. Fluid typography, buttery-smooth drawers, and uncompromised UI logic.
+<div align="center">
+  <img src="public/vids/phone%20home.png" width="50%" alt="Mobile First Interface" />
+</div>
+
+---
+
+### 💬 The Intelligent Chatbar
+Absolute command over the AI. Switch contexts, trigger media generation, and toggle system commands instantly.
+<div align="center">
+  <img src="public/vids/chatbar.png" width="90%" alt="Intelligent Chatbar" />
+</div>
+
+---
+
+### 📝 Smart Notes & Visualization
+Synthesize ideas dynamically. AI-assisted annotations and structural layouts mapped directly alongside your chat sessions.
+<div align="center">
+  <img src="public/vids/whiteboard.png" width="90%" alt="Notes and Whiteboard" />
+</div>
+
+---
+
+### 🧠 Interactive Quizzes
+System-generated contextual assessments mapped precisely to your ongoing coursework and document inputs.
+<div align="center">
+  <img src="public/vids/quiz.png" width="90%" alt="Interactive Quizzes" />
+</div>
+
+---
+
+## 🧠 System Architecture
+
+Synapse AI leverages a heavily optimized Director-Worker proxy pattern for flawless multi-model execution.
+
+### `Multi-Agent Flow`
+1. **Director Agent:** Analyzes intent, routes web-search vs. generation, and provisions subsystems.
+2. **Worker Agents:** Execute atomic tasks (e.g., vision parsing, chart generation, contrarian dialogue).
+3. **Aggregator & Synthesis:** Normalizes tool outputs and orchestrates timing.
+4. **Real-time UI Sync:** Streams binary frames and markdown seamlessly to the front-end canvas.
+
+---
+
+## 🚀 Deploy Instantly
+
+Deploy your own instance of the workspace to Vercel in 1-Click.
+
+<a href="https://vercel.com/new/clone?repository-url=https://github.com/sauravthakurq/SYNAPSE-AI">
+  <img src="https://vercel.com/button" alt="Deploy with Vercel"/>
+</a>
+
+---
+
+## 💻 Quick Start (Local Setup)
+
 ```bash
+# 1. Clone the repository
 git clone https://github.com/sauravthakurq/SYNAPSE-AI.git
 cd SYNAPSE-AI
-```
 
-### 2. Install Dependencies (PNPM Required)
-We use `pnpm` for blazing-fast, strictly-resolved package installation.
-```bash
+# 2. Install dependencies (PNPM is strictly required)
 corepack enable pnpm
 pnpm install
-```
 
-### 3. Environment Variables
-Copy the template and fill in your API tokens.
-```bash
+# 3. Setup environment configuration
 cp .env.example .env.local
-```
 
-### 4. Ignite the Engines
-```bash
+# 4. Initialize development server
 pnpm dev
-# The studio is now live at http://localhost:3000
+# Server live at: http://localhost:3000
 ```
 
 ---
 
-## 🏗️ Tech Stack
+## 🧩 Environment Variables
 
-Synapse AI is constructed on a hyper-modern, bleeding-edge foundation to ensure 0-latency perceived performance.
+Configure your `.env.local` to securely pass keys to the server logic.
 
-- **Framework:** [Next.js 15](https://nextjs.org/) (App Router, Turbopack)
-- **UI & Components:** [React 19](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
-- **Theme Ecosystem:** [Radix UI](https://www.radix-ui.com/), [Framer Motion](https://www.framer.com/motion/)
-- **State Management:** [Zustand](https://zustand-demo.pmnd.rs/) with persist middleware
-- **AI Core Engine:** [Vercel AI SDK](https://sdk.vercel.ai/)
-- **Export & File Systems:** `pptxgenjs`, `mammoth`, `jspdf`
+```bash
+# Required API Keys
+OPENAI_API_KEY=
+ANTHROPIC_API_KEY=
+GOOGLE_API_KEY=
+ELEVENLABS_API_KEY=
+
+# Optional (for full auth/system capabilities)
+NEXT_PUBLIC_APP_URL=https://ai.nexbook.tech
+```
 
 ---
 
-## 🛡️ License & Acknowledgements
+## 📁 Project Structure
 
-<div align="center">
-  <p>Released under the <b>MIT License</b>.</p>
-  <img src="public/images/economy.png" width="80%" style="border-radius: 8px; margin-top: 20px;" />
-</div>
+Built on standard Next.js 15 paradigms for instantaneous senior-level onboarding.
+
+```text
+SYNAPSE-AI/
+├── app/                # Next.js App Router (Pages, Generative AI Routes)
+├── components/         # Modular, reusable UI components (Radix + Tailwind)
+├── lib/                # Core orchestration logic, orchestration, & utils
+├── public/             # Static assets, branding, and optimized media
+├── hooks/              # Custom React 19 lifecycle & state hooks
+├── configs/            # Global theme, routing, and constant configurations
+└── types/              # Strict TypeScript definition payloads
+```
+
+---
+
+## 🔐 Security
+
+- **Strict Server Proxies:** Never expose generative API keys on the client-side payloads.
+- **Vercel AI SDK Integration:** Utilizes encrypted route handlers for sensitive data relay.
+- **Key Rotation:** Advised to rotate inference keys directly in your Vercel/hosting dashboard.
+
+---
+
+## 🗺️ Roadmap
+
+- [ ] Universal Plugin System
+- [ ] Visual Custom Agent Builder
+- [ ] WebRTC Real-Time User Collaboration
+- [ ] Dedicated Native Mobile App wrap
+
+---
+
+## 🤝 Contributing
+
+We welcome structural improvements, bug fixes, and feature additions!
+
+### Steps:
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Commit your changes strictly following conventional commits
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+### Guidelines:
+- Preserve **TypeScript strict mode**.
+- Adhere strictly to the existing App Router structures.
+- Ensure all CI/CD formatting steps pass locally before pushing.
+
+---
+
+## 📜 License
+
+MIT License © Saurav Thakur.  
+Free to modify and utilize for personal or enterprise workloads under standard attribution.
+
+---
+
+## 👤 Author
+
+**Saurav Thakur**  
+*AI Engineer | Founder | Built 46+ AI systems*
+
+An expert in AI, GenAI, and Agentic Systems, Saurav has developed 21+ apps and built 4 AI startups, delivering innovative automation tools currently serving over 22,000+ users worldwide. Aerox AI Fill was crafted as a production-grade browser system to demonstrate how deep intelligence can natively interact with the web ecosystem.
+
+---
+
+## ⭐ Support the Project
+
+If you found this useful, consider giving it a star — it helps open-source thrive!
