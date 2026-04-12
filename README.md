@@ -15,6 +15,15 @@
 
 </div>
 
+<br/>
+
+<a href="#visual-architecture--deep-dive">
+  <img src="public/vids/1st%20home.png" alt="SYNAPSE AI - Home Dashboard" width="100%" style="border-radius: 16px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); outline: 1px solid rgba(255,255,255,0.1);">
+</a>
+
+<br/>
+<br/>
+
 ## 🌌 System Overview & Engineering Excellence
 
 > **SYNAPSE AI** is an ultra-advanced, fully autonomous educational ecosystem representing the absolute pinnacle of modern software engineering. Built entirely from the ground up by an elite solo developer, this platform abandons traditional passive learning for a groundbreaking **Multi-Agent Orchestration architecture**. 
@@ -40,38 +49,38 @@ This level of architectural complexity, real-time math-rendering logic, seamless
 ## ⚡ Groundbreaking Core Features
 
 <details open>
-<summary><b>🧠 1. Agentic AI & Multi-Agent Orchestration</b></summary>
+<summary><b>🎓 1. Real-Time Autonomous Classroom Dynamics</b></summary>
 <br/>
 <ul>
-<li><b>LangGraph State Machines:</b> Complete implementation of advanced node-edge state machines where multiple AI personas (Teacher, Students, Critics) hold rigorous Socratic dialogues autonomously.</li>
-<li><b>LLM-Agnostic Core:</b> Dynamically routes between GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, and Groq based on token-generation latency and context limits. Includes absolute strict fallback algorithms ensuring 99.9% uptime.</li>
+<li><b>Lifelike Multi-Agent Interaction:</b> Experience a true classroom simulation. One AI agent acts as the professor explaining the concept, while student AI agents autonomously ask clarifying questions, challenge assumptions, and debate hypotheses natively within the generated lecture.</li>
+<li><b>Intelligent Persona State Machines:</b> Powered by LangGraph, multiple AI personas perfectly maintain their roles (Teacher, Curious Student, Challenger Critic) holding rigorous Socratic dialogues without any hardcoded scripts.</li>
 </ul>
 </details>
 
 <details open>
-<summary><b>⚡ 2. Hyper-Speed Generative Pipelines (&lt;60s Output)</b></summary>
+<summary><b>🛡️ 2. Ultimate Resilience: Multi-Tier Provider Fallbacks</b></summary>
 <br/>
 <ul>
-<li><b>Document-to-Matrix Extraction:</b> Uses OCR and advanced NLP parsing to immediately ingest complex mathematical PDFs or research papers and autonomously compile structured JSON curriculums.</li>
-<li><b>On-the-Fly Material Synthesizer:</b> Generates dynamic Quizzes, HTML5 interactive PBL (Project-Based Learning) modules, and LaTeX-rendered mathematical proofs instantly.</li>
+<li><b>Comprehensive Settings Control:</b> A massive, granular settings interface allows absolute user control over every generation pipeline (Text, Audio, Video, Image). You decide which agent gets which voice, personality, and backend logic.</li>
+<li><b>Cascading LLM & Media Fallbacks:</b> If a primary LLM (e.g., GPT-4o) hits a rate limit, the system instantly cascades to Claude 3.5 Sonnet, then Gemini 1.5 Pro, then Groq. This robust autonomous fallback architecture applies globally across <b>TTS (Text-to-Speech)</b>, <b>Image Generation</b>, and <b>Video Synthesis</b> channels, guaranteeing an unbreakable, 100% stable user experience without manual intervention.</li>
 </ul>
 </details>
 
 <details open>
-<summary><b>🎬 3. Cinematic Multimodal Playback</b></summary>
+<summary><b>⚡ 3. Hyper-Speed Generative Pipelines (&lt;60s Output)</b></summary>
 <br/>
 <ul>
-<li><b>Multi-Voice Text-to-Speech (TTS):</b> Seamless integration with Azure Neural Voices. Proxied waveform buffering guarantees zero-latency conversational overlap among AI agents.</li>
-<li><b>Dynamic Scene Renderers:</b> WebGL and Canvas-based stage rendering creates an immersive, tactile timeline of the AI-generated lecture.</li>
+<li><b>Document-to-Matrix Extraction:</b> Uses ultra-fast OCR and advanced NLP parsing to immediately ingest complex mathematical PDFs or research papers and autonomously compile structured JSON master-curriculums.</li>
+<li><b>On-the-Fly Material Synthesizer:</b> Generates custom visual aids, interactive HTML5 PBL modules, and LaTeX-rendered mathematical proofs instantly mid-lecture based on the agents' dynamic syllabus.</li>
 </ul>
 </details>
 
 <details open>
-<summary><b>🛠️ 4. Real-Time Intelligent Whiteboard</b></summary>
+<summary><b>🎬 4. Cinematic Multimodal Playback & Whiteboard</b></summary>
 <br/>
 <ul>
-<li><b>Synchronized Canvas:</b> Mathematical matrices, visual aids, and AI problem-solving steps are mapped onto a collaborative, interactive whiteboard synchronized flawlessly with the AI's spoken timeline.</li>
-<li><b>PPTX Engine Export:</b> In-house LaTeX and MathML engines export these dynamically generated whiteboard frames directly into presentation-ready PowerPoint files.</li>
+<li><b>Multi-Voice Text-to-Speech (TTS):</b> Seamlessly integrates diverse Microsoft Azure and Google Neural Voices. Proxied waveform buffering guarantees zero-latency, overlapping conversational audio among the AI agents.</li>
+<li><b>Synchronized Collaborative Canvas:</b> Mathematical matrices, mind maps, and AI problem-solving steps are mapped onto an interactive digital whiteboard synchronized flawlessly with the AI's spoken audio timeline.</li>
 </ul>
 </details>
 
@@ -80,15 +89,6 @@ This level of architectural complexity, real-time math-rendering logic, seamless
 ## 📸 Visual Architecture & Deep Dive
 
 *A showcase of how deeply technical architectural knowledge translates into award-winning UI interfaces.*
-
-<br/>
-
-### � The Immersive Home Experience
-<p align="center">
-  <img src="public/vids/1st%20home.png" alt="SYNAPSE AI - Home Dashboard" width="95%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);" />
-</p>
-
-> **The Centralized Hub:** A sleek, modern dashboard that intuitively guides you through course generation and provides quick access to your interactive learning ecosystem. It sets the tone for a premium educational experience.
 
 <br/>
 
