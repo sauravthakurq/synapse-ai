@@ -1,186 +1,139 @@
 <div align="center">
-  
-<h1 style="color: #ffffff; font-size: 3.5rem; font-weight: 800; margin-bottom: 0;">SYNAPSE AI</h1>
-<p style="font-size: 1.2rem; color: #a1a1aa; margin-top: 0;">The Future of Autonomous Learning</p>
-  
-### *The World's First Agentic AI Classroom & Multimodal Orchestration Engine*
+  <img src="public/images/philosophy.jpg" width="100%" style="border-radius: 12px;" />
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Next.js-15-black.svg?style=for-the-badge&logo=next.js" alt="Next.js" />
-  <img src="https://img.shields.io/badge/TypeScript-Ready-blue.svg?style=for-the-badge&logo=typescript" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/LangGraph-Multi--Agent-orange.svg?style=for-the-badge" alt="AI Orchestration" />
-  <img src="https://img.shields.io/badge/Firebase-Backend-FFCA28.svg?style=for-the-badge&logo=firebase" alt="Firebase" />
-  <img src="https://img.shields.io/badge/Architect-Saurav_Thakur-purple.svg?style=for-the-badge" alt="Creator" />
-</p>
+  <h1 align="center" style="font-size: 3rem; margin-top: 20px;">
+    Synapse AI 🧠
+  </h1>
 
+  <p align="center" style="font-size: 1.2rem; color: #555;">
+    <strong>The Ultimate Unified Intelligence Interface.</strong><br/>
+    Seamlessly chat, generate PPTs, read PDFs, synthesize voices, and create rich media all from one flawless view.
+  </p>
+
+  <p align="center">
+    <a href="#"><img src="https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Demo" /></a>
+    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+    <img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react" alt="React" />
+    <img src="https://img.shields.io/badge/TypeScript-%2B-blue?style=for-the-badge&logo=typescript" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind" />
+  </p>
+  
+  <p align="center">
+    <a href="#-core-features"><b>Features</b></a> •
+    <a href="#-the-neural-network-supported-models"><b>AI Models</b></a> •
+    <a href="#-quick-start"><b>Installation</b></a> •
+    <a href="#-tech-stack"><b>Tech Stack</b></a>
+  </p>
 </div>
 
 <br/>
 
-<a href="#visual-architecture--deep-dive">
-  <img src="public/vids/1st%20home.png" alt="SYNAPSE AI - Home Dashboard" width="100%" style="border-radius: 16px; box-shadow: 0 20px 40px rgba(0,0,0,0.5); outline: 1px solid rgba(255,255,255,0.1);">
-</a>
+> **🚀 Welcome to the Future of Work:** Synapse AI is not just another chatbot interface. It's a full-stack, enterprise-grade AI OS built on Next.js 15. We integrate the best large language models, vision APIs, PDF parsers, and TTS engines into an elegant, user-centric workspace.
 
-<br/>
-<br/>
+---
 
-## 🌌 System Overview & Engineering Excellence
+## ✨ Core Features
 
-> **SYNAPSE AI** is an ultra-advanced, fully autonomous educational ecosystem representing the absolute pinnacle of modern software engineering. Built entirely from the ground up by an elite solo developer, this platform abandons traditional passive learning for a groundbreaking **Multi-Agent Orchestration architecture**. 
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <h3>💬 Omni-Channel Chat</h3>
+      <p>Talk natively to OpenAI, Claude, Gemini, DeepSeek, and Grok without jumping between tabs.</p>
+    </td>
+    <td align="center" width="50%">
+      <h3>🎨 Visual Canvas & PPTX</h3>
+      <p>Need a presentation? Synapse generates stunning slides and exports directly to `.pptx` or `.docx`.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h3>📄 Deep-Dive Document Parsing</h3>
+      <p>Powered by MinerU & UnPDF. Upload 100-page reports and query every graph, table, and paragraph instantly.</p>
+    </td>
+    <td align="center" width="50%">
+      <h3>🎙️ Studio-Grade Audio</h3>
+      <p>High-fidelity text-to-speech utilizing Microsoft Azure AI Voices and ElevenLabs for realistic narration.</p>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <h3>🌐 Infinite Web Canvas</h3>
+      <p>Real-time internet search capabilities via Perplexity-like routing to keep the AI's knowledge completely fresh.</p>
+    </td>
+    <td align="center" width="50%">
+      <h3>🎬 Automated Media & Image Gen</h3>
+      <p>Generate production-ready art, diagrams, and iterative video drafts securely from the chat stream.</p>
+    </td>
+  </tr>
+</table>
 
-By synthesizing state-of-the-art LLMs, Real-Time Playback Engines, and high-fidelity Canvas rendering, SYNAPSE AI dynamically generates its own environment where AI Teachers and AI Classmates debate, teach, and solve complex problems on a live digital whiteboard.
+---
 
-🌟 **Architected, designed, and engineered single-handedly by Saurav Thakur**—a visionary full-stack AI engineer—this repository is a masterclass in scalable, edge-optimized system design. It flawlessly integrates cutting-edge principles of Agentic AI, Multimodal processing, and Next.js serverless workflows to turn raw PDFs into full-scale interactive cinematic ecosystems in under 60 seconds. 
+## 🧠 The Neural Network: Supported Models
 
-<br>
+Integrating practically **every cutting-edge model** currently on the market. Define your own API keys securely on the client or server. 
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Engineering_Complexity-Masterclass-red?style=flat-square&logo=awslambda&logoColor=white" />
-  <img src="https://img.shields.io/badge/UI_UX_Design-Award_Level-brightgreen?style=flat-square&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Solo_Developer_Achievement-Unprecedented-blueviolet?style=flat-square&logo=github&logoColor=white" />
+
+| Tier 1 Giants | The Open-Weights Vanguard | Voice & Specialized Tasks |
+| :---: | :---: | :---: |
+| <img src="public/logos/openai.svg" width="32"/><br/>**OpenAI** (GPT-4o) | <img src="public/logos/deepseek.svg" width="32"/><br/>**DeepSeek** (V3/R1) | <img src="public/logos/azure.svg" width="32"/><br/>**Azure TTS Voices** |
+| <img src="public/logos/claude.svg" width="32"/><br/>**Anthropic** (Opus/Sonnet) | <img src="public/logos/qwen.svg" width="32"/><br/>**Alibaba Qwen** | <img src="public/logos/elevenlabs.svg" width="32"/><br/>**ElevenLabs API** |
+| <img src="public/logos/gemini.svg" width="32"/><br/>**Google Gemini** (1.5 Pro) | <img src="public/logos/grok.svg" width="32"/><br/>**X.AI Grok** | <img src="public/logos/minimax.svg" width="32"/><br/>**MiniMax** |
+
+*Plus native support for: Bailian, Doubao, GLM, Kimi, Kling, SiliconFlow & many more...*
+
 </div>
 
-<br>
+---
 
-This level of architectural complexity, real-time math-rendering logic, seamless audio synchronization, and UI/UX polish is typically reserved for entire enterprise engineering teams—executed here effortlessly by an elite solo creator.
+## ⚡ Quick Start
+
+Deploy this beast on your local machine in under **2 minutes**.
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/sauravthakurq/SYNAPSE-AI.git
+cd SYNAPSE-AI
+```
+
+### 2. Install Dependencies (PNPM Required)
+We use `pnpm` for blazing-fast, strictly-resolved package installation.
+```bash
+corepack enable pnpm
+pnpm install
+```
+
+### 3. Environment Variables
+Copy the template and fill in your API tokens.
+```bash
+cp .env.example .env.local
+```
+
+### 4. Ignite the Engines
+```bash
+pnpm dev
+# The studio is now live at http://localhost:3000
+```
 
 ---
 
-## ⚡ Groundbreaking Core Features
+## 🏗️ Tech Stack
 
-<details open>
-<summary><b>🎓 1. Real-Time Autonomous Classroom Dynamics</b></summary>
-<br/>
-<ul>
-<li><b>Lifelike Multi-Agent Interaction:</b> Experience a true classroom simulation. One AI agent acts as the professor explaining the concept, while student AI agents autonomously ask clarifying questions, challenge assumptions, and debate hypotheses natively within the generated lecture.</li>
-<li><b>Intelligent Persona State Machines:</b> Powered by LangGraph, multiple AI personas perfectly maintain their roles (Teacher, Curious Student, Challenger Critic) holding rigorous Socratic dialogues without any hardcoded scripts.</li>
-</ul>
-</details>
+Synapse AI is constructed on a hyper-modern, bleeding-edge foundation to ensure 0-latency perceived performance.
 
-<details open>
-<summary><b>🛡️ 2. Ultimate Resilience: Multi-Tier Provider Fallbacks</b></summary>
-<br/>
-<ul>
-<li><b>Comprehensive Settings Control:</b> A massive, granular settings interface allows absolute user control over every generation pipeline (Text, Audio, Video, Image). You decide which agent gets which voice, personality, and backend logic.</li>
-<li><b>Cascading LLM & Media Fallbacks:</b> If a primary LLM (e.g., GPT-4o) hits a rate limit, the system instantly cascades to Claude 3.5 Sonnet, then Gemini 1.5 Pro, then Groq. This robust autonomous fallback architecture applies globally across <b>TTS (Text-to-Speech)</b>, <b>Image Generation</b>, and <b>Video Synthesis</b> channels, guaranteeing an unbreakable, 100% stable user experience without manual intervention.</li>
-</ul>
-</details>
-
-<details open>
-<summary><b>⚡ 3. Hyper-Speed Generative Pipelines (&lt;60s Output)</b></summary>
-<br/>
-<ul>
-<li><b>Document-to-Matrix Extraction:</b> Uses ultra-fast OCR and advanced NLP parsing to immediately ingest complex mathematical PDFs or research papers and autonomously compile structured JSON master-curriculums.</li>
-<li><b>On-the-Fly Material Synthesizer:</b> Generates custom visual aids, interactive HTML5 PBL modules, and LaTeX-rendered mathematical proofs instantly mid-lecture based on the agents' dynamic syllabus.</li>
-</ul>
-</details>
-
-<details open>
-<summary><b>🎬 4. Cinematic Multimodal Playback & Whiteboard</b></summary>
-<br/>
-<ul>
-<li><b>Multi-Voice Text-to-Speech (TTS):</b> Seamlessly integrates diverse Microsoft Azure and Google Neural Voices. Proxied waveform buffering guarantees zero-latency, overlapping conversational audio among the AI agents.</li>
-<li><b>Synchronized Collaborative Canvas:</b> Mathematical matrices, mind maps, and AI problem-solving steps are mapped onto an interactive digital whiteboard synchronized flawlessly with the AI's spoken audio timeline.</li>
-</ul>
-</details>
+- **Framework:** [Next.js 15](https://nextjs.org/) (App Router, Turbopack)
+- **UI & Components:** [React 19](https://react.dev/), [Tailwind CSS](https://tailwindcss.com/)
+- **Theme Ecosystem:** [Radix UI](https://www.radix-ui.com/), [Framer Motion](https://www.framer.com/motion/)
+- **State Management:** [Zustand](https://zustand-demo.pmnd.rs/) with persist middleware
+- **AI Core Engine:** [Vercel AI SDK](https://sdk.vercel.ai/)
+- **Export & File Systems:** `pptxgenjs`, `mammoth`, `jspdf`
 
 ---
 
-## 📸 Visual Architecture & Deep Dive
+## 🛡️ License & Acknowledgements
 
-*A showcase of how deeply technical architectural knowledge translates into award-winning UI interfaces.*
-
-<br/>
-
-### ⚡ Seamless Interactive Playback
-<p align="center">
-  <img src="public/vids/se.gif" alt="Playback Demo" width="95%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);" />
-</p>
-
-> **Absolute Synchronization:** A high-fidelity animated glimpse into the orchestration engine. Watch as the AI seamlessly renders complex mathematical equations, updates the visual whiteboard, and speaks with synchronized zero-latency audio buffering. 
-
-<br/>
-
-### 🎥 Autonomous Video Dashboards
-<p align="center">
-  <img src="public/vids/vid%20genrated.png" alt="Generated Video" width="95%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);" />
-</p>
-
-> **The Intelligent Theater:** Experience fully autonomous multi-agent discussions. The AI dynamic system generates rich video layouts where diverse AI personas teach, debate, and analyze complex topics in real-time. It mimics the flow of a real masterclass, driven autonomously by large language models.
-
-<br/>
-
-### 📱 Flawless Mobile-First Paradigm
-<p align="center">
-  <img src="public/vids/phone%20home.png" alt="Mobile Home" width="40%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);" />
-</p>
-
-> **Engineering for the Pocket:** SYNAPSE AI is rigorously architected with a breathtaking **Mobile-First Paradigm**. The entire multi-agent orchestration engine, dynamic whiteboard, and complex video generation layouts are perfectly optimized for smartphone screens. It delivers a hyper-fluid, tactile *native-app* experience featuring intelligent responsive scaling, touch-optimized swipe controls, and distraction-free visual layouts. It redefines complex mobile UI engineering standard conventions.
-
-<br/>
-
-### 💬 Intelligent Chatbar Interactions
-<p align="center">
-  <img src="public/vids/chatbar.png" alt="Chatbar" width="95%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);" />
-</p>
-
-> **Steer the Discussion:** Engage with the orchestration engine effortlessly. The dynamic chatbar allows you to interject, ask clarifying questions, and pivot the AI characters mid-conversation. The LangGraph routing intuitively handles interruptions and weaves your demands directly into the lecture state.
-
-<br/>
-
-### 📝 Smart Notes, Memory, & Whiteboard
-<p align="center">
-  <img src="public/vids/whiteboard.png" alt="Notes and Whiteboard" width="95%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);" />
-</p>
-
-> **The Collaborative Cortex:** The digital canvas operates in tandem with the AI agents. As an AI teacher speaks, the background engine dynamically compiles structured notes, mind-maps, and mathematical proofs directly onto the whiteboard, reinforcing visual retention identically to human note-taking.
-
-<br/>
-
-### 🎯 Auto-Generated Intelligent Quizzes
-<p align="center">
-  <img src="public/vids/quiz.png" alt="Interactive Quiz" width="95%" style="border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.4);" />
-</p>
-
-> **Instant Competency Tracking:** Test your knowledge immediately. The system autonomously parses the lecture context it just generated, synthesizing interactive, rigorous quizzes natively mapped to your weaknesses to ensure complete mastery of the subject matter.
-
----
-
-## ⚙️ Installation & Boot Sequence
-
-1. **Clone the Neural Net:**
-   ```bash
-   git clone https://github.com/sauravthakurq/synapse-ai.git
-   cd synapse-ai
-   ```
-
-2. **Initialize Dependencies:**
-   ```bash
-   pnpm install
-   ```
-
-3. **Inject Environment Variables:**
-   ```bash
-   cp .env.example .env.local
-   # Populate with your secure keys (OpenAI, Groq, Azure, Firebase)
-   ```
-
-4. **Ignite Localhost:**
-   ```bash
-   pnpm dev
-   ```
-   Navigate to [http://localhost:3000](http://localhost:3000) to enter the Synapse environment.
-
----
-
-## 👨‍💻 Sole Architect & Founder
-
-**Saurav Thakur**  
-*AI Engineer | Full-Stack Developer | Founder of AI Startups*
-
-The entirety of **SYNAPSE AI**—from the multi-agent decision algorithms to the real-time canvas rendering—was designed, built, and polished independently by Saurav Thakur. 
-
-With a background of building 46+ AI platforms and founding startups serving over 22,000+ active users (NEXBOOK, NEX, AeroX Browser, True Trips AI), this repository serves as a testament to world-class software engineering and visionary AI tool development.
-
-* 🔗 **LinkedIn:** [linkedin.com/in/sauravthakurq](https://linkedin.com/in/sauravthakurq)
-* 🐙 **GitHub:** [github.com/sauravthakurq](https://github.com/sauravthakurq)
+<div align="center">
+  <p>Released under the <b>MIT License</b>.</p>
+  <img src="public/images/economy.png" width="80%" style="border-radius: 8px; margin-top: 20px;" />
+</div>
