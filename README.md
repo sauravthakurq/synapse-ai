@@ -7,14 +7,14 @@
   </p>
 
   <p align="center">
-    Built like a <strong>$1B AI product</strong>, open-sourced for everyone.
+    A production-oriented, open-source AI workspace.
   </p>
 
   <p align="center">
     <a href="https://ai.nexbook.tech"><img src="https://img.shields.io/badge/Live%20Demo-Vercel-black?style=for-the-badge&logo=vercel" alt="Live Demo" /></a>
     <a href="https://github.com/sauravthakurq/SYNAPSE-AI/stargazers"><img src="https://img.shields.io/github/stars/sauravthakurq/SYNAPSE-AI?style=for-the-badge" alt="Stars" /></a>
     <a href="https://github.com/sauravthakurq/SYNAPSE-AI/network/members"><img src="https://img.shields.io/github/forks/sauravthakurq/SYNAPSE-AI?style=for-the-badge" alt="Forks" /></a>
-    <img src="https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js" alt="Next.js" />
+    <img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js" alt="Next.js" />
   </p>
 
   <br />
@@ -24,7 +24,7 @@
 
 <br/>
 
-> **🚀 Open-Source Intelligence:** Synapse AI integrates the absolute best of LLM orchestration, vision parsing, web search, real-time audio, and multi-agent systems into a beautifully architected Next.js 15 environment.
+> **🚀 Open-Source Intelligence:** Synapse AI integrates the absolute best of LLM orchestration, vision parsing, web search, real-time audio, and multi-agent systems into a beautifully architected Next.js 16 environment.
 
 ---
 
@@ -178,7 +178,7 @@ NEXT_PUBLIC_APP_URL=https://ai.nexbook.tech
 
 ## 📁 Project Structure
 
-Built on standard Next.js 15 paradigms for instantaneous senior-level onboarding.
+Built on standard Next.js 16 paradigms for instantaneous senior-level onboarding.
 
 ```text
 SYNAPSE-AI/
@@ -195,9 +195,10 @@ SYNAPSE-AI/
 
 ## 🔐 Security
 
-- **Strict Server Proxies:** Never expose generative API keys on the client-side payloads.
-- **Vercel AI SDK Integration:** Utilizes encrypted route handlers for sensitive data relay.
-- **Key Rotation:** Advised to rotate inference keys directly in your Vercel/hosting dashboard.
+- Keep provider secrets in server-side environment variables; never commit them.
+- Server-side routes validate user-supplied fetch URLs to reduce SSRF risk.
+- Rotate provider keys in your hosting dashboard if a key may have been exposed.
+
 
 ---
 
@@ -228,6 +229,12 @@ We welcome structural improvements, bug fixes, and feature additions!
 
 ---
 
+## 🧾 Maintainer and attribution
+
+Synapse AI is maintained and extended by **Saurav Thakur**. This repository includes MIT-licensed open-source components and preserves required license notices and historical contributor credits. See [UPSTREAM_ATTRIBUTION.md](UPSTREAM_ATTRIBUTION.md).
+
+---
+
 ## 📜 License
 
 MIT License © Saurav Thakur.  
@@ -240,7 +247,7 @@ Free to modify and utilize for personal or enterprise workloads under standard a
 **Saurav Thakur**  
 *AI Engineer | Founder | Built 46+ AI systems*
 
-An expert in AI, GenAI, and Agentic Systems, Saurav has developed 21+ apps and built 4 AI startups, delivering innovative automation tools currently serving over 22,000+ users worldwide. Aerox AI Fill was crafted as a production-grade browser system to demonstrate how deep intelligence can natively interact with the web ecosystem.
+An expert in AI, GenAI, and Agentic Systems, Saurav has developed 21+ apps and built 4 AI startups, delivering innovative automation tools currently serving over 22,000+ users worldwide.
 
 ---
 
