@@ -1,4 +1,4 @@
-// Non-professional designers can use this app to draw basic shapes: https://github.com/pipipi-pikachu/svgPathCreator
+// Shape paths and geometries
 
 import { ShapePathFormulasKeys } from '@/lib/types/slides';
 

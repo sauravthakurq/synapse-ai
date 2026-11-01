@@ -1,4 +1,4 @@
-// Convert SVG to base64 image. Reference: https://github.com/scriptex/svg64
+// Convert SVG to base64 image
 
 const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
 const PREFIX = 'data:image/svg+xml;base64,';

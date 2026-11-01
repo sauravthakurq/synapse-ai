@@ -1,33 +1,23 @@
-# Security Policy for NEX AI
+# Security Policy for Synapse AI
 
-Thank you for helping us keep NEX AI secure! We take the security of our platform, multi-agent engine, and users very seriously. 
+Thank you for helping keep Synapse AI secure.
 
-## Supported Versions
+## Supported versions
 
-We currently provide security updates for the latest major release and the active `main` branch. Please ensure you are running the most recent version of NEX AI before submitting a report.
+Security fixes are provided for the active `main` branch and the latest release.
 
-| Version | Supported          |
-| ------- | ------------------ |
-| main    | :white_check_mark: |
-| Latest Release | :white_check_mark: |
-| Older Versions | :x:                |
+| Version | Supported |
+| --- | --- |
+| `main` | :white_check_mark: |
+| Latest release | :white_check_mark: |
+| Older versions | :x: |
 
-## Reporting a Vulnerability
+## Reporting a vulnerability
 
-If you discover a security vulnerability in NEX AI, **please do not create a public GitHub issue.** Publicly disclosing a vulnerability can put other users and self-hosted instances at risk.
+Please do **not** open a public issue for a security vulnerability. Use GitHub's private vulnerability-reporting flow for [this repository](https://github.com/sauravthakurq/synapse-ai/security/advisories/new).
 
-Instead, please report it privately using one of the following methods:
-**GitHub Private Vulnerability Reporting:** Go to the [Security tab](https://github.com/THU-MAIC/NEX AI/security) of the repository, click on "Advisories", and select "Report a vulnerability".
+Include a clear description, impact, reproducible steps, and any relevant logs or screenshots. We aim to acknowledge reports within 48 hours.
 
+## Disclosure
 
-**What to include in your report:**
-* A description of the vulnerability and its potential impact.
-* Detailed steps to reproduce the issue.
-* Any relevant logs, screenshots, or code snippets.
-* (Optional) Suggested mitigation or a patch.
-
-We will acknowledge receipt of your vulnerability report within 48 hours and strive to send you regular updates about our progress.
-
-## Disclosure Process
-
-When a vulnerability is confirmed and patched, we will publish a GitHub Security Advisory detailing the issue, the impacted versions, and the fix. We will also credit the security researcher who reported the issue (unless they prefer to remain anonymous).
+Confirmed issues are fixed and disclosed through a GitHub Security Advisory when appropriate. Reporters are credited unless they prefer to remain anonymous.

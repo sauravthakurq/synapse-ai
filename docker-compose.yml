@@ -1,5 +1,5 @@
 services:
-  nex-ai:
+  synapse-ai:
     build: .
     ports:
       - "3000:3000"
@@ -8,8 +8,8 @@ services:
     volumes:
       # Optional: mount server-providers.yml for provider config
       # - ./server-providers.yml:/app/server-providers.yml:ro
-      - nex-ai-data:/app/data
+      - synapse-ai-data:/app/data
     restart: unless-stopped
 
 volumes:
-  nex-ai-data:
+  synapse-ai-data:

@@ -8,7 +8,7 @@ export class HomePage {
 
   constructor(page: Page) {
     this.page = page;
-    this.logo = page.locator('img[alt="NEX AI"]');
+    this.logo = page.locator('img[alt="Synapse AI Logo"]').or(page.locator('img[alt="SYNAPSE AI"]'));
     this.textarea = page.locator('textarea');
     this.enterButton = page
       .getByRole('button', { name: /enter/i })

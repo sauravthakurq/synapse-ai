@@ -96,7 +96,7 @@ export const useSnapshotStore = create<SnapshotState>((set, get) => ({
     }
 
     // Maintain page focus after undo: set the second-to-last snapshot's index to current scene
-    // https://github.com/pipipi-pikachu/PPTist/issues/27
+    // Handle shape and stroke bounds offset
     if (snapshotLength >= 2) {
       const currentSceneIndex = stageStore.getSceneIndex(stageStore.currentSceneId || '');
       await db.snapshots.update(allKeys[snapshotLength - 2] as number, {
