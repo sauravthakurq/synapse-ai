@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
+> **Historical attribution:** The entries below preserve upstream open-source release history and contributor credit. They are retained for transparency and license compliance. See [UPSTREAM_ATTRIBUTION.md](UPSTREAM_ATTRIBUTION.md).
+
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [0.1.0] - 2026-03-26
