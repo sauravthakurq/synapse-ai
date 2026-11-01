@@ -16,9 +16,6 @@ We currently provide security updates for the latest major release and the activ
 
 If you discover a security vulnerability in NEX AI, **please do not create a public GitHub issue.** Publicly disclosing a vulnerability can put other users and self-hosted instances at risk.
 
-Instead, please report it privately using one of the following methods:
-**GitHub Private Vulnerability Reporting:** Go to the [Security tab](https://github.com/THU-MAIC/NEX AI/security) of the repository, click on "Advisories", and select "Report a vulnerability".
-
 
 **What to include in your report:**
 * A description of the vulnerability and its potential impact.
